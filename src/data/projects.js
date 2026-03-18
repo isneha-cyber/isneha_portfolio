@@ -56,7 +56,7 @@ export const projects = [
     size: "large",
     image: "/images/ecommerce2.png",
     srcset: "/images/ecommerce2.png",
-    videoUrl: "/videos/ecommerce.mp4",
+    videoUrl: "/videos/roonapparel.mp4",
     visitUrl: "https://clothing.saitsolution.com.np/",
     about: "RoonApparel is a modern Nepali clothing brand with a clean, fashion-forward identity. We built a full e-commerce web experience that brings their collection to life from browsing to checkout with a minimal aesthetic that lets the clothing speak for itself.",
     members: [
@@ -336,27 +336,9 @@ export const projects = [
      
     ],
   },
+
    {
     id: 18,
-    title: "Restro",
-    slug: "restro",
-    category: "Frontend Development",
-    year: "2025",
-    size: "medium",
-    image: "/images/restro.png",
-    srcset: "/images/restro3.png",
-    videoUrl: "/videos/restro.mp4",
-    visitUrl: "#",
-    about: "A modern international hotel booking and listing platform that connects travellers with hotels worldwide featuring real-time availability, smart filtering, seamless booking flows, and secure payments. Built to compete with the best in the industry, delivering a frictionless experience from search to checkout.",
-    members: [{ name: "Isneha Manandhar", handle: "@isneha", role: "Development" }],
-    images: [
-      "/images/restro.png",
-      "/images/restro3.png",
-     
-    ],
-  },
-   {
-    id: 19,
     title: "Portfolio Black-White",
     slug: "portfolio-black-white",
     category: "Frontend Development",
@@ -375,7 +357,7 @@ export const projects = [
     ],
   },
    {
-    id: 20,
+    id: 19,
     title: "Portfolio",
     slug: "portfolio",
     category: "Frontend Development",
@@ -383,7 +365,7 @@ export const projects = [
     size: "medium",
     image: "/images/restro.png",
     srcset: "/images/restro3.png",
-    videoUrl: "/videos/portfolio2.mp4",
+    videoUrl: "/videos/modernportfolio.mp4",
     visitUrl: "#",
     about: "A modern portfolio built with GSAP animations, smooth scroll transitions, and a polished responsive UI — designed to be visually striking, user-friendly, and crafted to leave a lasting impression.",
     members: [{ name: "Isneha Manandhar", handle: "@isneha", role: "Development" }],
