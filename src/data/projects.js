@@ -172,7 +172,7 @@ export const projects = [
     size: "tall",
     image: "/images/university.png",
     srcset: "/images/university.png",
-    videoUrl: "/videos/university.mp4",
+    videoUrl: "https://res.cloudinary.com/dw32cwkds/video/upload/v1773915595/university_sxz64l.mp4",
     visitUrl: "#",
     about: "A robust University Management System built to centralize and streamline the complex operations of higher education institutions from student admissions and course management to faculty administration, examination results, and campus-wide reporting all within one powerful, role-based platform.",
     members: [{ name: "Isneha Manandhar", handle: "@isneha", role: "Development" }],
