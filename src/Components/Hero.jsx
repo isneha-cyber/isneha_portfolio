@@ -232,7 +232,7 @@ const Hero = () => {
           transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1], delay: 0.1 }}
           className="overflow-hidden w-full pb-[0.08em]"
         >
-          <h1 className="font-display leading-[0.9] tracking-tight text-[#01010e] text-[clamp(3.2rem,14vw,11.5rem)]">
+          <h1 className="font-display leading-relaxed sm:leading-[0.9] tracking-[5px] sm:tracking-tight text-[#01010e] text-5xl sm:text-[clamp(3.2rem,14vw,11.5rem)]">
             ISNEHA
           </h1>
         </motion.div>
@@ -249,7 +249,7 @@ const Hero = () => {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
               <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-green-400" />
             </span> */}
-            <p className="text-gray-500 uppercase tracking-widest text-[0.6rem] sm:text-[0.9rem]">
+            <p className="text-gray-500 uppercase tracking-widest text-[1.6rem] sm:text-[0.9rem]">
               Fullstack Developer 
             </p>
           </div>
@@ -262,7 +262,7 @@ const Hero = () => {
           transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1], delay: 0.55 }}
           className="overflow-hidden w-full py-[0.08em]"
         >
-          <h1 className="font-display leading-[0.9] tracking-tight text-[#01010e] text-[clamp(2rem,10.5vw,8.7rem)]">
+          <h1 className="font-display leading-relaxed sm:leading-[0.9]  tracking-[5px] sm:tracking-tight text-[#01010e] text-5xl sm:text-[clamp(2rem,10.5vw,8.7rem)]">
             MANANDHAR
           </h1>
         </motion.div>
@@ -285,7 +285,7 @@ const Hero = () => {
         transition={{ duration: 0.6, delay: 1.2 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
-        <span className="text-[0.6rem] uppercase tracking-[0.3em] text-gray-300">Scroll</span>
+        <span className="sm:text-[0.6rem] text-lg uppercase tracking-[0.3em] text-gray-500 sm:text-gray-300">Scroll</span>
         <div className="w-px h-8 bg-gradient-to-b from-gray-300 to-transparent animate-pulse" />
       </motion.div>
     </section>
