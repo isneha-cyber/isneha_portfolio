@@ -244,13 +244,13 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.45 }}
           className="my-3 sm:my-4 lg:my-5"
         >
-          <div className="inline-flex items-center gap-2 border border-gray-200 rounded-full px-4 py-1.5">
-            <span className="relative flex w-1.5 h-1.5">
+          <div className=" inline-flex items-center gap-2 ">
+            {/* <span className="relative flex w-1.5 h-1.5">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
               <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-green-400" />
-            </span>
-            <p className="text-gray-500 uppercase tracking-widest text-[0.6rem] sm:text-[0.7rem]">
-              Fullstack Developer · Available
+            </span> */}
+            <p className="text-gray-500 uppercase tracking-widest text-[0.6rem] sm:text-[0.9rem]">
+              Fullstack Developer 
             </p>
           </div>
         </motion.div>
@@ -268,14 +268,14 @@ const Hero = () => {
         </motion.div>
 
         {/* Sub-tagline — mobile only, hidden on larger screens where layout is spacious enough */}
-        <motion.p
+        {/* <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.9 }}
           className="mt-8 sm:mt-10 text-gray-400 text-sm sm:text-base max-w-xs sm:max-w-sm text-center leading-relaxed sm:hidden"
         >
           Nepal-based builder of fast, beautiful full-stack web experiences.
-        </motion.p>
+        </motion.p> */}
       </div>
 
       {/* Scroll indicator */}
